@@ -51,5 +51,17 @@ int main() {
         x++;
     }while(x < 5);
 
+    
+    //cavalo
+    int c = 0;
+    printf("\nCavalo: \n");
+    do{
+        for(int i = 0; i < 2; i++){
+            printf("Cima\n");
+        }
+        printf("direita\n");
+        c++;
+    }while(c < 1);
+
     return 0;
 }
